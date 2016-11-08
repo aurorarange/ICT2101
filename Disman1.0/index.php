@@ -11,6 +11,7 @@
    }
    if ($_SESSION['emp_type'] == 5) {
         include("views/driver.php");
-    }
+	}
+   include ("includes/footer.php");
 ?>
 
